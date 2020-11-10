@@ -37,15 +37,15 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 
 #### MVP 
-Using the NPS API, the user will be able to access the database<br></br>
-I'll add one required dropdown to select state and one optional dropdown to select activity<br></br>
-Display the park name, address and image<br></br>
+Using the NPS API, the user will be able to access the database  
+I'll add one required dropdown to select state and one optional dropdown to select activity  
+Display the park name, address and image..
 
 
 
 #### PostMVP  
-I'll add a button to get directions
-I'll add a button to get current weather forecast
+I'll add a button to get directions<br></br>
+I'll add a button to get current weather forecast<br></br>
 
 
 ## Project Schedule
