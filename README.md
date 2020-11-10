@@ -54,12 +54,12 @@ This schedule will be used to keep track of your progress throughout the week an
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
-<img src = "/.schedule.png">
+<img src = "./schedule.png">
 
 
 ## Priority Matrix
 
-<img src = "./matrix.png">
+<img src = "./matrix.jpg">
 
 
 ## Timeframes
