@@ -55,17 +55,6 @@ This schedule will be used to keep track of your progress throughout the week an
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
-| Component           | Priority| Estimated Time | Time Invested| Actual Time|
-| --------------------|:--------:|:-------------:|:------------:|:----------:| 
-| Write core HTML     | H        |  4hr          |              |            |
-| Write core css      | H        |  12hr         |              |            | 
-| Write core js       | H        |  8hr          |              |            |
-| Add API             | H        |  1hr          |              |            |
-| Create dropdowns    | H        |  3hr          |              |            |
-| Create buttons      | H        |  3hr          |              |            |
-| Add images          | H        |  2hr          |              |            |
-| Style images        | H        |  3hr          |              |            |
-| Add maps            | L        |  2hr          |              |            |
 
 
 
@@ -83,7 +72,18 @@ Tell us how long you anticipate spending on each area of development. Be sure to
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
-<img src = "./timeframes.png"
+| Component           | Priority| Estimated Time | Time Invested| Actual Time|
+| --------------------|:--------:|:-------------:|:------------:|:----------:| 
+| Write core HTML     | H        |  4hr          |              |            |
+| Write core css      | H        |  12hr         |              |            | 
+| Write core js       | H        |  8hr          |              |            |
+| Add API             | H        |  1hr          |              |            |
+| Create dropdowns    | H        |  3hr          |              |            |
+| Create buttons      | H        |  3hr          |              |            |
+| Add images          | H        |  2hr          |              |            |
+| Style images        | H        |  3hr          |              |            |
+| Add maps            | L        |  2hr          |              |            |
+
 
 ## Code Snippet
 
