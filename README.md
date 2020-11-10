@@ -55,6 +55,20 @@ This schedule will be used to keep track of your progress throughout the week an
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
+| Component           | Priority| Estimated Time | Time Invested| Actual Time|
+| --------------------|:--------:|:-------------:|:------------:|:----------:| 
+| Write core HTML     | H        |  4hr          |              |            |
+| Write core css      | H        |  12hr         |              |            | 
+| Write core js       | H        |  8hr          |              |            |
+| Add API             | H        |  1hr          |              |            |
+| Create dropdowns    | H        |  3hr          |              |            |
+| Create buttons      | H        |  3hr          |              |            |
+| Add images          | H        |  2hr          |              |            |
+| Style images        | H        |  3hr          |              |            |
+| Add maps            | L        |  2hr          |              |            |
+
+
+
 <img src = "./schedule.png">
 
 
