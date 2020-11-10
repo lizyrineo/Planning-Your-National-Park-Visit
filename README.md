@@ -12,22 +12,22 @@ This web site will assist anyone planning to visit a National Park in the US.  T
 
 ## API and Data Sample
 
-I will be using the API provided by the National Parks Service, https://www.nps.gov/subjects/developer/index.htm. Below if an example of the JSON:
-data: [
-{
-id: "6DA17C86-088E-4B4D-B862-7C1BD5CF236B",
-url: "https://www.nps.gov/acad/index.htm",
-fullName: "Acadia National Park",
-parkCode: "acad",
-description: "Acadia National Park protects the natural beauty of the highest rocky headlands along the Atlantic coastline of the United States, an abundance of habitats, and a rich cultural heritage. At 3.5 million visits a year, it's one of the top 10 most-visited national parks in the United States. Visitors enjoy 27 miles of historic motor roads, 158 miles of hiking trails, and 45 miles of carriage roads.",
-latitude: "44.409286",
-longitude: "-68.247501",
-latLong: "lat:44.409286, long:-68.247501",
-activities: [
-{
-id: "09DF0950-D319-4557-A57E-04CD2F63FF42",
-name: "Arts and Culture"
-},
+I will be using the API provided by the National Parks Service, https://www.nps.gov/subjects/developer/index.htm.  Below if an example of the JSON:
+data: [  
+{  
+id: "6DA17C86-088E-4B4D-B862-7C1BD5CF236B",  
+url: "https://www.nps.gov/acad/index.htm",  
+fullName: "Acadia National Park",  
+parkCode: "acad",  
+description: "Acadia National Park protects the natural beauty of the highest rocky headlands along the Atlantic coastline of the United States, an abundance of habitats, and a rich cultural heritage. At 3.5 million visits a year, it's one of the top 10 most-visited national parks in the United States. Visitors enjoy 27 miles of historic motor roads, 158 miles of hiking trails, and 45 miles of carriage roads.",  
+latitude: "44.409286",  
+longitude: "-68.247501",  
+latLong: "lat:44.409286, long:-68.247501",  
+activities: [  
+{  
+id: "09DF0950-D319-4557-A57E-04CD2F63FF42",  
+name: "Arts and Culture"  
+},  
 
 
 ## Wireframes
@@ -37,15 +37,16 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 
 #### MVP 
-Using the NPS API, the user will be able to access the database  
-I'll add one required dropdown to select state and one optional dropdown to select activity  
-Display the park name, address and image..
+By linking the National Parks Service API, the user will be able to access the database  
+I'll add one dropdown to select state and one optional dropdown to select activity  
+The park name, address and image will display on the page..
 
 
 
 #### PostMVP  
-I'll add a button to get directions<br></br>
-I'll add a button to get current weather forecast<br></br>
+I'll have different images of the chosen park cycle on the page  
+I'll add a button to get directions  
+I'll add a button to get current weather forecast  
 
 
 ## Project Schedule
