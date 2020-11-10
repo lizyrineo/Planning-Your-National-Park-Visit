@@ -76,12 +76,13 @@ name: "Astronomy"
 | css background imgs      | H        |  3hr          |              |            |
 | css image layout         | H        |  3hr          |              |            |
 | Build state code data    | H        |  3hr          |              |            |
+| JS API call              | H        |  3hr          |              |            |
 | JS Create loops for parks| H        |  4hr          |              |            |
 | JS images for parks      | H        |  2hr          |              |            |
 | JS Create dropdowns      | H        |  4hr          |              |            |
 | JS Create buttons        | H        |  4hr          |              |            |
 | JS Add images            | H        |  3hr          |              |            |
-
+| Total.                   |          |  35hr          |              |            |
 
 ## Code Snippet
 
