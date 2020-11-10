@@ -12,8 +12,8 @@ This web site will assist anyone planning to visit a National Park in the US.  T
 
 ## API and Data Sample
 I will be using the API provided by the National Parks Service, https://developer.nps.gov/api/v1/parks?activity=CA&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji  
-Below is an example of the JSON:
-    ```{
+
+```{
 total: "497",
 limit: "50",
 start: "0",
@@ -31,11 +31,12 @@ activities: [
 {
 id: "13A57703-BB1A-41A2-94B8-53B692EB7238",
 name: "Astronomy"
-},```
+},
+```
 
 ## Wireframes
 
-![Wireframe] (https://wireframe.cc/udm8RG)
+[Wireframe](https://wireframe.cc/udm8RG)
 
 
 #### MVP 
