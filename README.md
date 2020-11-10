@@ -63,7 +63,7 @@ name: "Astronomy"
 
 ## Priority Matrix
  
-<img src = "./matrix.png>
+[Priority Matrix](./matrix.png)
 
 ## Timeframes
 
