@@ -7,14 +7,13 @@ Plan Your National Park Visit
 
 ## Project Description
 
-This web site will assist anyone planning to visit a National Park in the US.  The user will be able to locate a National Park by state or acitivity using drop down lists.  A list of parks will then be returned to the user.  They can click on the park name and a description of the park, a list of activities and an image will be returned. 
+This web site will assist anyone planning to visit a National Park in the US.  The user will be able to locate a National Park by state or activity using drop down lists.  A list of parks will then be returned to the user.  They can click on the park name and a description of the park, a list of activities and an image will be returned. 
 
 
 ## API and Data Sample
-
 I will be using the API provided by the National Parks Service, https://developer.nps.gov/api/v1/parks?activity=CA&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji  
 Below is an example of the JSON:
-```{
+    ```{
 total: "497",
 limit: "50",
 start: "0",
@@ -34,7 +33,6 @@ id: "13A57703-BB1A-41A2-94B8-53B692EB7238",
 name: "Astronomy"
 },```
 
-
 ## Wireframes
 
 ![Wireframe] (https://wireframe.cc/udm8RG)
@@ -45,8 +43,6 @@ I'll allow user to search for National Parks by state using the NPS API
 Using the list created by the state search, the user can select a park  
 The page will display the park name, an image, the descrition of activities available
 
-
-
 #### PostMVP  
 Each park will display the directions to the park
 Each park will display multiple images with a mouse click
@@ -54,16 +50,20 @@ Each park will display the park map
 
 ## Project Schedule
 
-<img src = "./schedule.png">
 
+|  Day | Deliverable                                        | Status      
+|Nov 9 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Nov 10| Project Approval                                   | Incomplete
+|Nov 12| Core Application Structure (HTML, CSS, etc.)       | Incomplete
+|Nov 13| Pseudocode / actual code                           | Incomplete
+|Nov 16| MVP                                                | Incomplete
+|Nov 17| Presentations                                      | Incomplete
 
 ## Priority Matrix
-
-<img src = "./matrix.jpg">
-
+ 
+<img src = "./matrix.png>
 
 ## Timeframes
-
 
 | Component                | Priority| Estimated Time | Time Invested| Actual Time|
 | -------------------------|:--------:|:-------------:|:------------:|:----------:| 
