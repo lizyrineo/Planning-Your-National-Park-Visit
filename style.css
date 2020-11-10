@@ -1,0 +1,18 @@
+body{
+  background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
+  background-size: cover;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  display: flex;
+  /* width: 500px;
+  height: 200px; */
+
+}
+
+h1{
+  font-size: 16px;
+}
