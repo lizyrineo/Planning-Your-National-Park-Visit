@@ -12,8 +12,8 @@ This web site will assist anyone planning to visit a National Park in the US.  T
 
 ## API and Data Sample
 I will be using the API provided by the National Parks Service, https://developer.nps.gov/api/v1/parks?activity=CA&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji  
-
-```{
+Below is an example of the JSON:
+    ```{
 total: "497",
 limit: "50",
 start: "0",
@@ -31,39 +31,37 @@ activities: [
 {
 id: "13A57703-BB1A-41A2-94B8-53B692EB7238",
 name: "Astronomy"
-},
-```
+},```
 
 ## Wireframes
 
-[Wireframe](https://wireframe.cc/udm8RG)
+![Wireframe] (https://wireframe.cc/udm8RG)
 
 
 #### MVP 
-- I'll allow user to search for National Parks by state using the NPS API  
-- Using the list created by the state search, the user can select a park  
-- The page will display the park name, an image, the descrition of activities available
+I'll allow user to search for National Parks by state using the NPS API  
+Using the list created by the state search, the user can select a park  
+The page will display the park name, an image, the descrition of activities available
 
 #### PostMVP  
-- Each park will display the directions to the park
-- Each park will display multiple images with a mouse click
-- Each park will display the park map
+Each park will display the directions to the park
+Each park will display multiple images with a mouse click
+Each park will display the park map
 
 ## Project Schedule
 
 
-|  Day | Deliverable | Status
-|---|---| ---|
-|Nov 9| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Nov 10| Project Approval | Incomplete
-|Nov 12| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Nov 13| Pseudocode / actual code | Incomplete
-|Nov 16| MVP | Incomplete
-|Nov 17| Presentations | Incomplete
+|  Day | Deliverable                                        | Status      
+|Nov 9 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Nov 10| Project Approval                                   | Incomplete
+|Nov 12| Core Application Structure (HTML, CSS, etc.)       | Incomplete
+|Nov 13| Pseudocode / actual code                           | Incomplete
+|Nov 16| MVP                                                | Incomplete
+|Nov 17| Presentations                                      | Incomplete
 
 ## Priority Matrix
  
-[Priority Matrix](./matrix.png)
+<img src = "./matrix.png>
 
 ## Timeframes
 
@@ -76,13 +74,12 @@ name: "Astronomy"
 | css background imgs      | H        |  3hr          |              |            |
 | css image layout         | H        |  3hr          |              |            |
 | Build state code data    | H        |  3hr          |              |            |
-| JS API call              | H        |  3hr          |              |            |
 | JS Create loops for parks| H        |  4hr          |              |            |
 | JS images for parks      | H        |  2hr          |              |            |
 | JS Create dropdowns      | H        |  4hr          |              |            |
 | JS Create buttons        | H        |  4hr          |              |            |
 | JS Add images            | H        |  3hr          |              |            |
-| Total.                   |          |  35hr          |              |            |
+
 
 ## Code Snippet
 
