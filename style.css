@@ -1,8 +1,7 @@
 body{
   background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
   background-size: cover;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+ 
 }
 
 header{
@@ -16,4 +15,10 @@ header{
 
 h1{
   font-size: 20px;
+}
+
+footer{
+  background-image: url('https://www.logolynx.com/images/logolynx/15/156ec75244f1ec8d3693d0ab385d32ad.gif');
+  background-size: 20px 20px 20px 20px;
+  
 }

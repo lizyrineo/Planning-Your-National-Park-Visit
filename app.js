@@ -3,134 +3,96 @@ const API_KEY = 'gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji';
 const BASE_URL = `${DOMAIN}?activity=CA&api_key=${API_KEY}&`;
 
 // let stateCode = document.querySelector(stateAbbr)
-// let parkName = document.data.fullName
-// let parkInfo = document.data.description
-// let parkDirections = document.data.directions
+let parkName = document.querySelector(fullName)
+let parkInfo = document.querySelector(description)
+let parkDirections = document.querySelector(directons)
+
+// let parkImage = document.data.image
 const stateAbbr = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY',]
 // let dataContainer = document.querySelector('park-info')
 
 //create drop down list from array
-let getState = document.getElementById("#choose-state")
+function createDropDown(array) {
+  let getState = document.querySelector("#choose-state")
 
-for (let i = 0; i < stateAbbr.length; i++) {
-  let option = stateAbbr[i];
-  let el = document.createElement('option')
-  el.textContent = option;
-  console.log(stateAbbr)
-}
-
-
-
-
-
-//create dynamic dropdown list
-const getStates = async () => {
-  const url = `https://developer.nps.gov/api/v1/parks?${states}&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji`;
-
-  try {
-    const response = await axios.get(url)
-    console.log(response.data)
-    const list = Object.keys(response.data)
-
-    // stateCode(parkList)
-  } catch (error) {
-    console.log(error)
+  for (let i = 0; i < array.length; i++) {
+    let option = array[i];
+    let stateList = document.createElement('option')
+    stateList.textContent = option;
+    stateList.value = option;
+    getState.append(stateList)
   }
 }
+createDropDown(stateAbbr)
 
-getStates(stateAbbr)
+//add event listener when state is clicked
 
-
-//creating dropdown
-function optionValues(list) {
-  const select = document.querySelector('#choose-state')
-  return list.forEach((stateAbbr) => {
-    const option = document.createElement('option')
-    console.log(states)
-    //set value
-    option.value = state
-    //set text content
-    option.textContent = state
-    select.append(option)
-  })
+stateList.addEventListener('click', handleClickEvent)
+const handleClickEvent = function () {
+  const getParks = async () => {
+  
+    let parkName = document.data.fullName
+  
+    const url = `https://developer.nps.gov/api/v1/parks?${fullName}&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji`;
+  
+    try {
+      const response = await axios.get(url)
+      console.log(response.data)
+      const list = Object.keys(response.data)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  
+  getParks(fullName)
+  
 }
-// const stateAbbr = [
-//   'AL',
-//   'AK',
-//   'AZ',
-//   'AR',
-//   'CA',
-//   'CO',
-//   'CT',
-//   'DE',
-//   'FL',
-//   'GA',
-//   'HI',
-//   'ID',
-//   'IL',
-//   'IN',
-//   'IA',
-//   'KS',
-//   'KY',
-//   'LA',
-//   'ME',
-//   'MD',
-//   'MA',
-//   'MI',
-//   'MN',
-//   'MS',
-//   'MO',
-//   'MT',
-//   'NE',
-//   'NV',
-//   'NH',
-//   'NJ',
-//   'NM',
-//   'NY',
-//   'NC',
-//   'ND',
-//   'OH',
-//   'OK',
-//   'OR',
-//   'PA',
-//   'RI',
-//   'SC',
-//   'SD',
-//   'TN',
-//   'TX',
-//   'UT',
-//   'VT',
-//   'VA',
-//   'WA',
-//   'WV',
-//   'WI',
-//   'WY',
-// ]
-// optionValues(stateAbbr)
 
+// write function to select park
+axios.get(url, headers)
+.then((res) => {
+  const response = res.data.results
+  // console.log(response.data.results)
+  
+  response.forEach((park) => {
+    console.log(park)
 
-// //grab value from dropdown
-// function getValue(event) {
-//   event.preventDefault()
-//   const optionValue = document.querySelector('select').value
-//   // console.log(optionValue)
-//   getState(optionValue)
-// }
-// // getValue()
-
-// async function getState(state) {
-//   const url = `https://developer.nps.gov/api/v1/parks?stateCode=${state}&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji`;
-//   try {
-//     const response = await axios.get(url)
-//     // console.log(response.data.message)
-//     const stateParks = response.data.message
     
-//     parkInfo(stateParks)
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
-// function parkInfo(description) {
-//   const activites = document.createElement('Park-Info')
+    const parkDiv = document.querySelector('#choose-park')
+    btn.addEventListener('click', function() {
+      const parkNameDiv = document.createElement('div')
+    parkNameDiv.className = 'park-div'
+      parkDiv.append(parkNameDiv)
+      const parkName = park.name.fullName
+    name.textContent = `${fullName}`
+    parkDiv.append(name)
+    }
+    // console.log(parkDiv)
+    
+    const activityDiv = document.querySelector('#show-activity')
+    btn.addEventListener('click', function() {
+      const parkActivityDiv = document.createElement('div')
+      const activity = park.activities.name
+    parkActivityDiv.className = 'acticity-div'
+      parkActivityDiv.append(activityDiv)
+      const parkName = park.data.activity
+      info.textContent = `Activities: ${activities}`
+    parkDiv.append(activity)
+    }
+    
+    const directionsDiv = document.querySelector('#show-directions')
+    btn.addEventListener('click', function () {
+      const parkDirectionsDiv = document.createElement('div')
+      const directions = park.data.directions
+      directionsDiv.className = 'acticity-div'
+      directionsDiv.append(parkDirectionsDiv)
+      info.textContent = `Directions: ${directionsInfo}`
+      parkDiv.append(directions)
+    }
+  
+    const img = document.createElement('img')
+    btn.addEventListener('click', function () {
+    img.setAttribute('src', park.data.images.url)
+    parkDiv.append(img)
+  }
 
-// }
