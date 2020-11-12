@@ -1,20 +1,77 @@
 body{
-  background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
-  background-size: cover;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
  
 }
 
+.moab {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+}
+.moab::before {
+  content: "";
+      background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
 header{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 50px;
-  display: flex;
-  /* width: 500px;
-  height: 200px; */
-
+  font-size: 70px;
+  padding: 30px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: center;
 }
 
 h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
+  padding: 30px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: left;
+}
+
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: left;
+}
+
+h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: left;
+}
+.button {
+  background-color: purple;
+  border: black;
+  margin: 50px;
   font-size: 20px;
+
 }
 
 footer{
