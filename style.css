@@ -21,7 +21,7 @@ body{
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.75;
+      opacity: 0.60;
 }
 header{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -48,7 +48,7 @@ h1{
 h2{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
-  padding: 20px;
+  padding: 10px;
   display: block;
   position: relative;
   color:black;  
@@ -70,7 +70,9 @@ h4 {
   background-color: purple;
   border: black;
   margin: 50px;
+  padding: 50px;
   font-size: 20px;
+  border-radius: 50%;
 
 }
 
