@@ -24,4 +24,10 @@ function createList(list) {
     ul.append(li)
   })
 }
-form.addEventListener('submit', getState)
+form.addEventListener('click', createList)
+
+
+
+
+
+

@@ -4,7 +4,7 @@ body{
  
 }
 
-.moab {
+/* .moab {
     position: relative; 
     height: 100vh;
     width: 100%;
@@ -22,7 +22,7 @@ body{
       bottom: 0px;
       left: 0px;
       opacity: 0.60;
-}
+} */
 header{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 70px;
@@ -66,14 +66,23 @@ h4 {
   line-height: 0.9;
   text-align: left;
 }
-.button {
-  background-color: purple;
-  border: black;
-  margin: 50px;
-  padding: 50px;
-  font-size: 20px;
-  border-radius: 50%;
+button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #ffac20;
+  font-size: 15px;
+  padding: 12px;
+  display: block;
+  position: relative;
+  margin: 30px;
+  color:black;  
+  line-height: 0.9;
+  text-align: center;
 
+}
+
+.form {
+  padding: 20px;
+  margin: 50px;
 }
 
 footer{
