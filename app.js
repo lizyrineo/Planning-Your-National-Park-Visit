@@ -15,6 +15,7 @@ async function getState(event) {
     console.log(error)
   }
 }
+
 function createList(list) {
   let ul = document.querySelector('ul')
   list.forEach(park => {
@@ -24,7 +25,15 @@ function createList(list) {
     ul.append(li)
   })
 }
-form.addEventListener('click', createList)
+form.addEventListener('submit', getState);
+
+function clicked() {
+  console.log('click');
+  
+}
+let h2 = document.querySelector('h2');
+h2.addEventListener('click', clicked)
+
 
 
 
