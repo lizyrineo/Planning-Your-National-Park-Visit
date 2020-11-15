@@ -1,10 +1,10 @@
 body{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+  background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
  
 }
 
-/* .moab {
+/* .moab.body {
     position: relative; 
     height: 100vh;
     width: 100%;
@@ -21,8 +21,8 @@ body{
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.60;
-} */
+      opacity: 0.60; */
+/* } */
 header{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 70px;
@@ -37,7 +37,7 @@ header{
 h1{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 45px;
-  padding: 30px;
+  padding: 25px;
   display: block;
   position: relative;
   color:black;  
@@ -47,7 +47,7 @@ h1{
 
 h2{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px;
   display: block;
   position: relative;
@@ -68,7 +68,7 @@ h4 {
 }
 button {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color: #ffac20;
+  background-color: rgba(245, 174, 92, 0.80);
   font-size: 15px;
   padding: 12px;
   display: block;
@@ -77,16 +77,46 @@ button {
   color:black;  
   line-height: 0.9;
   text-align: center;
+  outline-style: double;
 
 }
 
-.form {
+#select-state {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(245, 174, 92, 0.80);
+  font-size: 25px;
+  padding: 12px;
+  display: block;
+  position: relative;
+  margin: 30px;
+  color:black;  
+  line-height: 0.9;
+  text-align: center;
+  outline-style: double;
+}
+
+ul {
+  background-color: rgba(230, 150, 59, 0.70);
   padding: 20px;
-  margin: 50px;
+  margin-right: 800px;
+  list-style-type: circle;
+  list-style-position: inside;
+  
+  
+
 }
 
-footer{
-  background-image: url('https://www.logolynx.com/images/logolynx/15/156ec75244f1ec8d3693d0ab385d32ad.gif');
-  background-size: 20px 20px 20px 20px;
-  
+li:hover {
+  cursor: pointer;
 }
+
+#park-info {
+  background-color: rgba(230, 150, 59, 0.70);
+  padding: 20px;
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  
+
+}
+
