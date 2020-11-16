@@ -92,9 +92,12 @@ function showParkImage(images) {
   image.setAttribute("src", images[imageIndex].url)
   //This returns <img> as a DOM element, not only as a URL string
   //when this is returned inside 'getParkData' above, it can be plugged directly into the <div>
+  
   return image
 }
+ 
   
+
 
 
 
