@@ -1,28 +1,10 @@
 body{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
+  background-image: url('https://rt-homepage.roadtrippers.com/wp-content/uploads/2020/03/arches-hero-1920x1080.jpg');
  
 }
 
-/* .moab.body {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    display: block;
-    align-items: left;
-    justify-content: left;
-}
-.moab::before {
-  content: "";
-      background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.60; */
-/* } */
+
 header{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 70px;
@@ -68,8 +50,9 @@ h4 {
 }
 button {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color: rgba(245, 174, 92, 0.80);
+  background-color: rgba(191, 96, 210, 0.8);
   font-size: 15px;
+  border-radius: 25px;
   padding: 12px;
   display: block;
   position: relative;
@@ -77,31 +60,32 @@ button {
   color:black;  
   line-height: 0.9;
   text-align: center;
-  outline-style: double;
+  
 
 }
 
 #select-state {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-color: rgba(245, 174, 92, 0.80);
+  background-color: rgba(191, 96, 210, 0.8);
   font-size: 25px;
-  padding: 12px;
+  border-radius: 25px;
+  padding: 20px;
   display: block;
   position: relative;
   margin: 30px;
   color:black;  
   line-height: 0.9;
   text-align: center;
-  outline-style: double;
+  
 }
 
 ul {
-  background-color: rgba(230, 150, 59, 0.70);
+  background-color: rgba(191, 96, 210, 0.8);
   padding: 20px;
   margin-right: 800px;
   list-style-type: circle;
   list-style-position: inside;
-  
+  border-radius: 25px;
   
 
 }
@@ -111,12 +95,18 @@ li:hover {
 }
 
 #park-info {
-  background-color: rgba(230, 150, 59, 0.70);
+  background-color: rgba(191, 96, 210, 0.8);
+  font-size: 25px;
   padding: 20px;
   position: absolute;
-  right: 150px;
-  width: 200px;
-  
+  right: 250px;
+  width: 400px;
+  border-radius: 25px;
 
 }
-
+img{
+  float: right;
+  height: 250px;
+  width: 250px;
+  margin: 10px 10px 10px 10px;
+}
