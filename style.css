@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background-image: url('https://www.nationalparks.org/sites/default/files/shutterstock_176085914.jpg');
   background-size: cover;
@@ -17,3 +18,148 @@ header{
 h1{
   font-size: 20px;
 }
+=======
+
+
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url('https://rt-homepage.roadtrippers.com/wp-content/uploads/2020/03/arches-hero-1920x1080.jpg');
+  background-repeat: none;
+  max-width: 100%;
+  background: cover;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+
+header{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  padding: 30px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: center;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
+  padding: 25px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: left;
+}
+
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: left;
+}
+
+h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  display: block;
+  position: relative;
+  color:black;  
+  line-height: 0.9;
+  text-align: left;
+}
+button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(191, 96, 210, 0.7);
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 12px;
+  display: block;
+  position: relative;
+  margin: 30px;
+  color:black;  
+  line-height: 0.9;
+  text-align: center;
+  
+
+}
+
+#fixPositioning {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+
+}
+#select-state {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(191, 96, 210, 0.7);
+  font-size: 25px;
+  border-radius: 25px;
+  padding: 20px;
+  display: block;
+  position: relative;
+  margin: 30px;
+  color:black;  
+  line-height: 0.9;
+  text-align: center;
+  
+}
+
+ul {
+  background-color: rgba(191, 96, 210, 0.7);
+  padding: 45px;
+  margin-right: 30px;
+  width: 400px;
+  list-style-type: none;
+  list-style-position: inside;
+  border-radius: 25px;
+  margin-block-start: 0;
+
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#park-info {
+  background-color: rgba(191, 96, 210, 0.7);
+  font-size: 25px;
+  padding: 20px;
+  /* position: absolute; */
+  /* right: 250px; */
+  width: 400px;
+  border-radius: 25px;
+
+}
+
+img{
+  float: right;
+  height: 250px;
+  width: 250px;
+  margin: 10px 10px 10px 10px;
+}
+@media (max-width: 750px) {
+  html,
+  body {
+    height: 100%;  
+    flex-flow: row wrap;
+  }
+}
+  /* #park-info {
+    clear: left;
+    flex-flow: row wrap;
+}
+  #park-list {
+    clear: none;
+    flex-flow: row wrap;
+} *
+}
+>>>>>>> ee4909e03d046222ca26c1a264ea1c1b99812599
