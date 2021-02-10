@@ -13,7 +13,8 @@ This web site will assist anyone planning to visit a National Park in the US.  T
 ## API and Data Sample
 I will be using the API provided by the National Parks Service, https://developer.nps.gov/api/v1/parks?activity=CA&api_key=gvphhiHHG97vMhTNAeRfJpBHEPlctO6jPByPu0ji  
 Below is an example of the JSON:
-    ```{
+```
+{
 total: "497",
 limit: "50",
 start: "0",
@@ -31,7 +32,8 @@ activities: [
 {
 id: "13A57703-BB1A-41A2-94B8-53B692EB7238",
 name: "Astronomy"
-},```
+},
+```
 
 ## Wireframes
 
@@ -52,12 +54,12 @@ Each park will display the park map
 
 
 |  Day | Deliverable                                        | Status      
-|Nov 9 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Nov 10| Project Approval                                   | Incomplete
-|Nov 12| Core Application Structure (HTML, CSS, etc.)       | Incomplete
-|Nov 13| Pseudocode / actual code                           | Incomplete
-|Nov 16| MVP                                                | Incomplete
-|Nov 17| Presentations                                      | Incomplete
+|Nov 9 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Nov 10| Project Approval                                   | Complete
+|Nov 12| Core Application Structure (HTML, CSS, etc.)       | Complete
+|Nov 13| Pseudocode / actual code                           | Complete
+|Nov 16| MVP                                                | Complete
+|Nov 17| Presentations                                      | Complete
 
 ## Priority Matrix
  
@@ -67,18 +69,17 @@ Each park will display the park map
 
 | Component                | Priority| Estimated Time | Time Invested| Actual Time|
 | -------------------------|:--------:|:-------------:|:------------:|:----------:| 
-| HTML structure           | H        |  1hr          |              |            |
-| HTML links               | H        |  2hr          |              |            | 
-| HTML buttons             | H        |  2hr          |              |            |
-| HTML images              | H        |  1hr          |              |            |
-| css background imgs      | H        |  3hr          |              |            |
-| css image layout         | H        |  3hr          |              |            |
-| Build state code data    | H        |  3hr          |              |            |
-| JS Create loops for parks| H        |  4hr          |              |            |
-| JS images for parks      | H        |  2hr          |              |            |
-| JS Create dropdowns      | H        |  4hr          |              |            |
-| JS Create buttons        | H        |  4hr          |              |            |
-| JS Add images            | H        |  3hr          |              |            |
+| HTML structure           | H        |  1hr          |   1hr        |   1hr      |
+| HTML links               | H        |  2hr          |   1.5hr      |   1.5hr    | 
+| HTML buttons             | H        |  2hr          |   1hr        |   1hr      |
+| HTML images              | H        |  1hr          |   1hr        |   1hr      |
+| css background imgs      | H        |  3hr          |   2hrs       |   2hrs     |
+| css image layout         | H        |  3hr          |   4hrs       |   4hrs     |
+| Build state code data    | H        |  3hr          |   2.5hr      |   2.5hr    |
+| JS Create loops for parks| H        |  4hr          |   4hrs       |   4hrs     |
+| JS images for parks      | H        |  2hr          |   1.5hr      |   1.5hr    |
+| JS Create links          | H        |  4hr          |   3hrs       |   3hrs     |
+
 
 
 ## Code Snippet
